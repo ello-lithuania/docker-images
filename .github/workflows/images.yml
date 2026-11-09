@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
 env:
-  HUB: kokybiskasvetaine
+  HUB: xinterx1512
 jobs:
   image:
     runs-on: ubuntu-latest
@@ -48,8 +48,8 @@ jobs:
         if: ${{ github.ref_name == 'main' }}
         uses: peter-evans/dockerhub-description@v4
         with:
-          username: kokybiskasvetaine
+          username: xinterx1512
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: kokybiskasvetaine/${{ matrix.name }}
+          repository: xinterx1512/${{ matrix.name }}
           readme-filepath: ${{ matrix.name }}/DOCKERHUB.md
           short-description: ${{ matrix.name }} image, small and with no outside services

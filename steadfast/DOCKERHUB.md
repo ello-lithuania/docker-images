@@ -3,7 +3,7 @@
 A free one-page Bootstrap 5 template for small service businesses, served by nginx. Run it to preview the template or to use as a starting point.
 
 ```
-docker run --rm -p 8080:80 kokybiskasvetaine/steadfast
+docker run --rm -p 8080:80 xinterx1512/steadfast
 ```
 
 Then open http://localhost:8080.

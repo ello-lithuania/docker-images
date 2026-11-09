@@ -3,7 +3,7 @@
 A tiny read-only JSON API with the Lithuanian name day calendar (*vardadieniai*) for all 366 days. It runs without a database or any outside service.
 
 ```
-docker run --rm -p 8080:80 kokybiskasvetaine/vardadieniai
+docker run --rm -p 8080:80 xinterx1512/vardadieniai
 curl http://localhost:8080/11-09
 curl http://localhost:8080/vardai/Justas
 ```

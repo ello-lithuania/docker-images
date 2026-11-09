@@ -3,7 +3,7 @@
 A tiny read-only JSON API with the most popular names of babies born in Lithuania in 2024. The numbers come from the open data of the Centre of Registers, published on data.gov.lt.
 
 ```
-docker run --rm -p 8080:80 kokybiskasvetaine/naujagimiu-vardai
+docker run --rm -p 8080:80 xinterx1512/naujagimiu-vardai
 curl http://localhost:8080/2024/mergaites
 ```
 
